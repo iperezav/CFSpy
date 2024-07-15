@@ -9,7 +9,7 @@ LONG_DESCRIPTION = 'A package that allows to simulate the output of a control sy
 
 # Setting up
 setup(
-    name="CFS",
+    name="CFSpy",
     version=VERSION,
     author="Ivan Perez Avellaneda",
     author_email="<iperezave@gmail.com>",
