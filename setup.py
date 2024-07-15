@@ -15,7 +15,7 @@ setup(
     author_email="<iperezave@gmail.com>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
-    long_description=long_description,
+    long_description=LONG_DESCRIPTION,
     packages=find_packages(),
     install_requires=['numpy', 'sympy'],
     keywords=['Chen-Fliess series', 'nonlinear system', 'input-output system', 'ODEs', 'control system', 'system theory', 'python'],
