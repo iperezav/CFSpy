@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: CFS
-Version: 1.0
+Name: CFSpy
+Version: 1.0.7
 Summary: Chen-Fliess series computation
 Author: Ivan Perez Avellaneda
 Author-email: <iperezave@gmail.com>

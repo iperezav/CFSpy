@@ -1,6 +1,7 @@
 # Function that provides the iterative integrals
+
 def iter_int(u,t0, tf, dt, Ntrunc):
-    
+    import numpy as np
     
     """"
     Returns the list of all iterated integrals of the input u indexed by the words of length from 1 to Ntrunc.

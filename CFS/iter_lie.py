@@ -1,5 +1,7 @@
 # Function that provides the iterative Lie derivatives
 def iter_lie(h,vector_field,z,Ntrunc):
+    import numpy as np
+    import sympy as sp
 
     """
     Returns the list of all the Lie derivatives indexed by the words of length from 1 to Ntrunc

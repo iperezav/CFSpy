@@ -1,5 +1,6 @@
 # Individual iterative integral
 def single_iter_int(eta, u, t0, tf, dt):
+    import numpy as np
     
     # The length of the partition of time is computed
     length_t = int((tf-t0)//dt+1)

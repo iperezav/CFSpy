@@ -3,13 +3,13 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '1.0'
+VERSION = '1.0.7'
 DESCRIPTION = 'Chen-Fliess series computation'
 LONG_DESCRIPTION = 'A package that allows to simulate the output of a control system by means of the Chen-Fliess series.'
 
 # Setting up
 setup(
-    name="CFS",
+    name="CFSpy",
     version=VERSION,
     author="Ivan Perez Avellaneda",
     author_email="<iperezave@gmail.com>",
