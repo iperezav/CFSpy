@@ -1,3 +1,4 @@
+LICENSE
 README.md
 setup.py
 CFS/__init__.py
