@@ -1,5 +1,5 @@
 <div align="center">
-<img src="logo\CFSpy_logo.png" alt="CFSpy" / >
+<img src="https://raw.githubusercontent.com/iperezav/CFSpy/main/logo/CFSpy_logo.png" alt="CFSpy" / >
 
 ---
 
@@ -133,7 +133,7 @@ plt.legend(['Output of the system','Chen-Fliess series'])
 plt.grid()
 plt.show()
 ```
-<img src="examples/output_chenfliess.png" alt="iter_int(), iter_lie()" />
+<img src="https://raw.githubusercontent.com/iperezav/CFSpy/main/examples/output_chenfliess.png" alt="iter_int(), iter_lie()" />
 
 For more examples, see the [CFSpy demos](https://github.com/iperezav/CFSpy/blob/main/examples/)
 
