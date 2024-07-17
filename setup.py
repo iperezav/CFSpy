@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '1.0.7'
+VERSION = '1.0.8'
 DESCRIPTION = 'Chen-Fliess series computation'
 LONG_DESCRIPTION = 'A package that allows to simulate the output of a control system by means of the Chen-Fliess series.'
 
@@ -13,6 +13,7 @@ setup(
     version=VERSION,
     author="Ivan Perez Avellaneda",
     author_email="<iperezave@gmail.com>",
+    license="MIT",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
