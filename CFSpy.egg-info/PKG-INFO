@@ -1,3 +1,23 @@
+Metadata-Version: 2.1
+Name: CFSpy
+Version: 1.0.13
+Summary: Chen-Fliess series computation
+Home-page: https://github.com/iperezav/CFSpy/
+Author: Ivan Perez Avellaneda
+Author-email: <iperezave@gmail.com>
+License: MIT
+Keywords: Chen-Fliess series,nonlinear system,input-output system,ODEs,control system,system theory,python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: sympy
+
 <div align="center">
 <img src="https://raw.githubusercontent.com/iperezav/CFSpy/main/logo/CFSpy_logo.png" alt="CFSpy" / >
 
