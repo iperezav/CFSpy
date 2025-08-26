@@ -1,6 +1,6 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: CFSpy
-Version: 1.0.13
+Version: 1.2.1
 Summary: Chen-Fliess series computation
 Home-page: https://github.com/iperezav/CFSpy/
 Author: Ivan Perez Avellaneda
@@ -17,6 +17,17 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: numpy
 Requires-Dist: sympy
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/iperezav/CFSpy/main/logo/CFSpy_logo.png" alt="CFSpy" / >
