@@ -141,7 +141,7 @@ For more examples, see the [CFSpy demos](https://github.com/iperezav/CFSpy/blob/
 # Resources
 
 - [**PyPi**](https://pypi.org/project/CFSpy/)
-- [**Documentation**](https://github.com/iperezav/CFSpy/blob/main/README.md)
+- [**Documentation**](https://cfspy-docs.readthedocs.io/en/latest/)
 - [**Issue tracking**](https://github.com/iperezav/CFSpy/issues)
 
 
