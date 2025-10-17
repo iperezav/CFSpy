@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: CFSpy
-Version: 1.2.1
+Version: 1.2.2
 Summary: Chen-Fliess series computation
 Home-page: https://github.com/iperezav/CFSpy/
 Author: Ivan Perez Avellaneda
@@ -172,7 +172,7 @@ For more examples, see the [CFSpy demos](https://github.com/iperezav/CFSpy/blob/
 # Resources
 
 - [**PyPi**](https://pypi.org/project/CFSpy/)
-- [**Documentation**](https://github.com/iperezav/CFSpy/blob/main/README.md)
+- [**Documentation**](https://cfspy-docs.readthedocs.io/en/latest/)
 - [**Issue tracking**](https://github.com/iperezav/CFSpy/issues)
 
 
