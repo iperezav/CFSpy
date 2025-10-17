@@ -190,9 +190,16 @@ def iter_int(u,t0, tf, dt, Ntrunc):
     # The number of rows which are equal to the number of total input functions is obtained.
     num_input = int(np.size(u,0))
 
+    # Initializes the total number of iterated integrals.
+    total_iterint = 0
     # The total number of iterated integrals of word length less than or equal to the truncation length is computed.
     # total_iterint = num_input + num_input**2 + ... + num_input**Ntrunc
-    total_iterint = num_input*(1-pow(num_input,Ntrunc))/(1-num_input)
+    if num_input == 1:
+        for i in range(Ntrunc):
+            total_iterint += pow(num_input, i+1)
+    else:
+        total_iterint = num_input*(1-pow(num_input,Ntrunc))/(1-num_input)
+    
     # This is transformed into an integer.
     total_iterint = int(total_iterint)
     
