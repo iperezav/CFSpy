@@ -120,10 +120,16 @@ def iter_lie(h,vector_field,z,Ntrunc):
     # num_vfield = m
     num_vfield = np.size(vector_field,1)
     
-    
+    # Initializes the total number of Lie derivatives.
+    total_lderiv = 0
     # The total number of Lie derivatives of word length less than or equal to the truncation length is computed.
     # total_lderiv = num_input + num_input**2 + ... + num_input**Ntrunc
-    total_lderiv = num_vfield*(1-pow(num_vfield, Ntrunc))/(1-num_vfield)
+    if num_vfield == 1:
+        for i in range(Ntrunc):
+            total_lderiv += pow(num_vfield, i+1)
+    else:
+        total_lderiv = num_vfield*(1-pow(num_vfield,Ntrunc))/(1-num_vfield)    
+
     total_lderiv = int(total_lderiv)
     
     
